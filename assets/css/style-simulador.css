@@ -1,0 +1,228 @@
+.conteudo {
+    margin: auto;
+    background-image: url("../img/bg-simulador.png");
+    font-family: 'Calibri', sans-serif;
+}
+
+
+/***************************************************************************/
+/**************************** Estilo header *****************************/
+/*************************************************************************/
+
+@keyframes digitalizacao {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.estilo-header {
+    opacity: 0;
+    animation: digitalizacao 5s ease forwards;
+    color: #cfe2ff;
+    font-size: 40px;
+}
+
+.h1-titulo {
+    font-size: 200%;
+    color: white;
+}
+
+
+/***************************************************************************/
+/**************************** Estilo coluna 1 *****************************/
+/*************************************************************************/
+
+.title-introducao {
+    font-size: 30px !important;
+}
+
+.introducao {
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    #ordem-servico:hover {
+        cursor: zoom-in;
+    }
+}
+
+.btn-oculos {
+    background-color: #130f47 !important;
+    border-radius: 100% !important;
+    border: 5px solid white !important;
+    color: #130f47 !important;
+}
+
+#ponte {
+    left: 47%;
+    top: 22%;
+}
+
+#diagonal {
+    top: 68%;
+    left: 79%;
+}
+
+#horizontal {
+    top: 51%;
+    left: 7%;
+}
+
+#vertical {
+    top: 10%;
+    left: 71%;
+}
+
+.vertical-linha,
+.horizontal-linha,
+.ponte-linha,
+.diagonal-linha {
+    background-color: #f00;
+    display: none;
+    border-radius: 100px;
+}
+
+@keyframes efeitoVertical {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 59%;
+    }
+}
+
+@keyframes efeitoHorizontal {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 28%;
+    }
+}
+
+@keyframes efeitoPonte {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 8%;
+    }
+}
+
+.vertical-linha {
+    width: 3%;
+    height: 0;
+    left: 72.2%;
+    top: 22%;
+    animation: efeitoVertical 0.5s ease forwards;
+}
+
+.horizontal-linha {
+    width: 0;
+    height: 6%;
+    left: 13.2%;
+    top: 56%;
+    animation: efeitoHorizontal 0.5s ease forwards;
+}
+
+.ponte-linha {
+    width: 0;
+    height: 6%;
+    left: 46.2%;
+    top: 38%;
+    animation: efeitoPonte 0.5s ease forwards;
+}
+
+.diagonal-linha {
+    width: 32%;
+    height: 7%;
+    left: 53.2%;
+    top: 46%;
+    transform: rotate(44deg);
+}
+
+.popover-header {
+    color: white !important;
+    background-color: #130f47 !important;
+}
+
+
+/***************************************************************************/
+/**************************** Estilo coluna 2 *****************************/
+/*************************************************************************/
+
+.entradas {
+    background-color: white;
+}
+
+.title-parametro {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #130F47;
+}
+
+.title-caixinha {
+    font-size: 20px;
+    color: #2330A7;
+}
+
+.caixinha {
+    border: 4px solid gray;
+}
+
+.form-control.vazio {
+    border: none !important;
+}
+
+.legenda-caixinha {
+    border-top: 1px dashed gray;
+    font-size: 15px;
+    color: #A29F9F;
+}
+
+.btn-resultados {
+    background-color: white !important;
+    color: #130F47 !important;
+    font-size: 25px !important;
+
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL'0,
+        'wght'400,
+        'GRAD'0,
+        'opsz'48
+}
+
+
+/***************************************************************************/
+/**************************** Estilo modal ********************************/
+/*************************************************************************/
+
+.title-acerto {
+    background-color: #130F47;
+    color: white;
+    font-size: 35px !important;
+    text-transform: uppercase;
+}
+
+.title-errou {
+    background-color: #a00000;
+    color: white;
+    font-size: 35px !important;
+    text-transform: uppercase;
+}
+
+.p-errou {
+    font-size: 25px;
+}
