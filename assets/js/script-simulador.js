@@ -64,11 +64,7 @@ function correcao() {
             'valor-esferico-direito': '-3,00',
             'valor-cilindrico-direito': '-0,50',
             'valor-eixo-direito': '25',
-            'valor-esferico-esquerdo': '+2,50',
-            'valor-cilindrico-esquerdo': '-0,75',
-            'valor-eixo-esquerdo': '120',
             'valor-refracao': '1,59',
-            'valor-dnp-esquerdo': '32',
             'valor-dnp-direito': '34'
         };
 
