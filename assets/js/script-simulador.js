@@ -65,6 +65,7 @@ function correcao() {
             'valor-cilindrico-direito': '-0,50',
             'valor-eixo-direito': '25',
             'valor-refracao': '1,59',
+            'valor-adicao-direito':'+2,00',
             'valor-dnp-direito': '34'
         };
 
