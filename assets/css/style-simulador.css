@@ -70,8 +70,8 @@
 }
 
 #horizontal {
-    top: 51%;
-    left: 7%;
+    top: 37%;
+    left: 85%;
 }
 
 #vertical {
@@ -129,8 +129,8 @@
 .horizontal-linha {
     width: 0;
     height: 6%;
-    left: 13.2%;
-    top: 56%;
+    left: 57.2%;
+    top: 42%;
     animation: efeitoHorizontal 0.5s ease forwards;
 }
 
@@ -198,10 +198,10 @@
 
 .material-symbols-outlined {
     font-variation-settings:
-        'FILL'0,
-        'wght'400,
-        'GRAD'0,
-        'opsz'48
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
 }
 
 
